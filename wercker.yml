@@ -3,6 +3,14 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.39"
-        theme: redlounge
+        theme: dream
         config: second-config.toml
         flags: --disableSitemap=true
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: tinhltp.github.io/blog
+        basedir: public
