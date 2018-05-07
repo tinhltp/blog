@@ -1,4 +1,4 @@
-baseurl = "https://tinhltp.github.io/blog"
+baseurl = "tinhltp.github.io"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Tinh's blog"
