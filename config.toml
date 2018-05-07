@@ -1,0 +1,32 @@
+baseurl = "https://example.com"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Tinh's blog"
+theme = "dream"
+
+# copyright = ""
+
+# googleAnalytics = ""
+
+# disqusShortname = ""
+
+# enableRobotsTXT = true
+
+[params]
+  author = "Tinh"
+  motto = "Japanese Translator"
+  # description = ""
+  avatar = "/img/avatar-ex.jpg"
+  
+  email = "tinhltp@gmail.com"
+  # github = ""
+  # linkedin = ""
+  # codepen = ""
+  # stackoverflow = ""
+
+  siteStartYear = 2018
+  aboutHeader = "About Me"
+
+  paginate = 4
+
+  # favicon = "/favicon.ico"
