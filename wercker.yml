@@ -4,8 +4,6 @@ build:
     - arjen/hugo-build:
         version: "0.39"
         theme: dream
-        config: second-config.toml
-        flags: --disableSitemap=true
 deploy:
   steps:
     - install-packages:
